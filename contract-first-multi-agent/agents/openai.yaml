@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contract-First Multi-Agent"
+  short_description: "Audit, contract, implement, and integrate code with subagents"
+  default_prompt: "Use $contract-first-multi-agent to choose the smallest sufficient recon agent set for this repository, inspect in parallel, freeze an implementation contract, and after approval implement through bounded worker subagents rather than direct main-agent edits; then review the combined diff and make final integration fixes."
